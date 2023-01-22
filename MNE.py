@@ -1,3 +1,5 @@
+#This programme is a practice for EEG data analysing with MNE+Python
+
 import numpy as np
 import matplotlib.pyplot as plt
 from itertools import chain
@@ -22,7 +24,7 @@ from sklearn.model_selection import ShuffleSplit, KFold
 from sklearn.model_selection import cross_val_score
 
 
-data1 = pd.read_csv('/Users/leogy/study/HKUStudy/Dissertation/DataDownload/MILimbEEG/Tasks/S1all.csv')
+data1 = pd.read_csv('  ')
 print(data1.shape)
 data1 = data1.transpose()
 print(data1.shape)
