@@ -1,3 +1,6 @@
+#This programme is for extracting special channel's signal of EEG
+#And also, Using STFT to process data and get the feature
+
 import numpy as np
 import matplotlib.pyplot as plt
 from itertools import chain
@@ -17,8 +20,8 @@ from mne.time_frequency import psd_welch
 此程序用于对不同动作的EEG数据，提取cz、c3、c4三个影响较大的电极信号提取特征，并保存特征图片，用于输入CNN网络
 '''
 
-data_path = r'/Users/leogy/study/HKUStudy/Dissertation/DataDownload/MILimbEEG/M7/'
-save_path = '/Users/leogy/study/HKUStudy/Dissertation/DataDownload/MILimbEEG/data/M4/'
+data_path = r'/ '
+save_path = '/ '
 FileNames = os.listdir(data_path)
 for i in FileNames:
     if re.search(r'\.csv$', i):
