@@ -1,3 +1,5 @@
+#This programme using SVM based on sklearn to classify different EMG signal in 5 types movement
+
 from sklearn.datasets import load_svmlight_file
 #X_train, y_train = load_svmlight_file('heart_scale')
 from sklearn import svm
@@ -11,7 +13,7 @@ from sklearn import preprocessing
 import matplotlib.pyplot as plt
 
 
-Xdata = scio.loadmat('/Users/leogy/study/HKUStudy/Dissertation/资料/Original Data/toSVM/SVMdata/xdata.mat')['xdata']
+Xdata = scio.loadmat('/ ')['xdata'] #the data format is mat in this programme
 
 ydata = np.empty([3020000])        #生成y lable数据，且符合纬度
 for i in range(0, 5):
