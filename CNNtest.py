@@ -1,3 +1,5 @@
+#This programme is a practice for EEG signal classification in CNN.
+
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -22,8 +24,8 @@ import os
 from sklearn.model_selection import train_test_split
 
 # 训练样本目录和验证样本目录
-train_dir = '/Users/leogy/study/HKUStudy/Dissertation/DataDownload/MILimbEEG/data/M4'  # 训练集20000条
-validation_dir = '/Users/leogy/study/HKUStudy/Dissertation/DataDownload/MILimbEEG/data/M5'  # 验证集5000条
+train_dir = '/ '  # 训练集20000条
+validation_dir = '/ '  # 验证集5000条
 # 对训练图像进行数据增强
 train_datagen = ImageDataGenerator(rescale=1. / 255,  # 数据归一化
                                    rotation_range=30,  # 图片随机旋转的最大角度
