@@ -1,9 +1,11 @@
+#This programme is for merging documents in a folder
+
 import numpy as np
 import pandas as pd
 import glob
 import os
 
-os.chdir("/Users/leogy/study/HKUStudy/Dissertation/DataDownload/MILimbEEG/M7/test")  #要拼接的文件夹及其完整路径，注意不要包含中文
+os.chdir("YOUR PATH") 
 
 
 csv_list = glob.glob('*.csv')
