@@ -1,4 +1,4 @@
-#This programme using SVM based on sklearn to classify different EMG signal in 5 types movement
+#This program using SVM based on sklearn to classify different EMG signal in 5 types movement
 
 from sklearn.datasets import load_svmlight_file
 #X_train, y_train = load_svmlight_file('heart_scale')
