@@ -1,4 +1,4 @@
-#This programme is a practice for EEG data analysing with MNE+Python
+#This program is a practice for EEG data analysing with MNE+Python
 
 import numpy as np
 import matplotlib.pyplot as plt
