@@ -1,4 +1,4 @@
-#This programme is for merging documents in a folder
+#This program is for merging documents in a folder
 
 import numpy as np
 import pandas as pd
