@@ -1,4 +1,4 @@
-#This programme is for extracting special channel's signal of EEG
+#This program is for extracting special channel's signal of EEG
 #And also, Using STFT to process data and get the feature
 
 import numpy as np
