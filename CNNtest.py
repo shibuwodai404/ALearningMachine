@@ -1,4 +1,4 @@
-#This programme is a practice for EEG signal classification in CNN.
+#This program is a practice for EEG signal classification in CNN.
 
 import numpy as np
 import tensorflow as tf
